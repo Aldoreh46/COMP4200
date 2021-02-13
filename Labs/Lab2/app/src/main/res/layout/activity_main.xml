@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient"
+        android:layout_gravity="center"
+        android:onClick="ExplicitIntent"
+        android:padding="15sp"
+        android:text="@string/explicit_activation"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#2C5364" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="ImplicitIntent"
+        android:padding="15sp"
+        android:text="@string/implicit_activation"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="#2C5364" />
+
+    <TextView
+
+        android:id="@+id/tview"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/no_text_entered"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
